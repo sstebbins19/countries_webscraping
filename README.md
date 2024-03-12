@@ -1,5 +1,5 @@
-# Websraping Parkrun Results
-This project aims to webscrape the results of recent parkruns from the website. 
+# Websraping Countries
+This project aims to webscrape country information from this website; https://www.scrapethissite.com/pages/simple/. 
 
 ## How to Use
 
