@@ -30,3 +30,7 @@ for i in range(0,len(table)-1):
     indiv_other = [k.text.strip() for k in table[i].find_all('span')]
     indiv_row = indiv_names + indiv_other
     df.loc[i] = indiv_row
+
+# Write csv file
+## filepath = "filepath showing where you want to save the csv"
+## df.to_csv(filepath + "countries.csv", index=False)
