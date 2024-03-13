@@ -1,0 +1,69 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Frequency of Countries involved in Conflicts (1946-2022)",
+  "width": 300,
+  "height": 250,
+  "data": {
+    "url": "https://raw.githubusercontent.com/sstebbins19/countries_webscraping/main/js/ne_110m.json",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sstebbins19/countries_webscraping/main/js/oceans.topojson",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightblue"}
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'No info recorded in ' + datum.properties.NAME",
+          "as": "note"
+        }
+      ],
+      "mark": {"type": "geoshape", "fill": "white", "stroke": "darkgray"},
+      "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+      "transform": [
+        {
+          "lookup": "properties.NAME",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/sstebbins19/countries_webscraping/main/ws_data/countries.csv"
+            },
+            "key": "Country Name:",
+            "fields": ["Population:", "Capital:", "Area (km2):"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape", "stroke": "darkgrey"},
+      "encoding": {
+        "color": {
+          "field": "Population:",
+          "type": "quantitative",
+          "legend": {"title": "Population of Countries"}
+        },
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {"field": "Capital:", "type": "nominal", "title": "Capital"},
+          {
+            "field": "Area (km2):",
+            "type": "quantitative",
+            "title": "Area (km2)"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sstebbins19/countries_webscraping/main/js/ne_110m.json",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "darkgrey"}
+    }
+  ],
+  "config": {}
+}
