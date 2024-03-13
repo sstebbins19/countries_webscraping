@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Frequency of Countries involved in Conflicts (1946-2022)",
-  "width": 300,
-  "height": 250,
+  "width": 1500,
+  "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/sstebbins19/countries_webscraping/main/js/ne_110m.json",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
