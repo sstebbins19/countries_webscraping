@@ -15,7 +15,7 @@ Australia,Canberra,21515754,7686850.0
 Aruba,Oranjestad,71566,193.0
 Åland,Mariehamn,26711,1580.0
 Azerbaijan,Baku,8303512,86600.0
-Bosnia and Herzegovina,Sarajevo,4590000,51129.0
+Bosnia and Herz.,Sarajevo,4590000,51129.0
 Barbados,Bridgetown,285653,431.0
 Bangladesh,Dhaka,156118464,144000.0
 Belgium,Brussels,10403000,30510.0
@@ -32,18 +32,18 @@ Bonaire,Kralendijk,18012,328.0
 Brazil,Brasília,201103330,8511965.0
 Bahamas,Nassau,301790,13940.0
 Bhutan,Thimphu,699847,47000.0
-Bouvet Island,None,0,49.0
+Bouvet Is.,None,0,49.0
 Botswana,Gaborone,2029307,600370.0
 Belarus,Minsk,9685000,207600.0
 Belize,Belmopan,314522,22966.0
 Canada,Ottawa,33679000,9984670.0
-Cocos [Keeling] Islands,West Island,628,14.0
+Cocos Is.,West Island,628,14.0
 Democratic Republic of the Congo,Kinshasa,70916439,2345410.0
-Central African Republic,Bangui,4844927,622984.0
-Republic of the Congo,Brazzaville,3039126,342000.0
+Central African Rep.,Bangui,4844927,622984.0
+Dem. Rep. Congo,Brazzaville,3039126,342000.0
 Switzerland,Bern,7581000,41290.0
 Ivory Coast,Yamoussoukro,21058798,322460.0
-Cook Islands,Avarua,21388,240.0
+Cook Is.,Avarua,21388,240.0
 Chile,Santiago,16746491,756950.0
 Cameroon,Yaoundé,19294149,475440.0
 China,Beijing,1330044000,9596960.0
@@ -52,27 +52,27 @@ Costa Rica,San José,4516220,51100.0
 Cuba,Havana,11423000,110860.0
 Cape Verde,Praia,508659,4033.0
 Curacao,Willemstad,141766,444.0
-Christmas Island,Flying Fish Cove,1500,135.0
+Christmas Is.,Flying Fish Cove,1500,135.0
 Cyprus,Nicosia,1102677,9250.0
-Czech Republic,Prague,10476000,78866.0
+Czechia,Prague,10476000,78866.0
 Germany,Berlin,81802257,357021.0
 Djibouti,Djibouti,740528,23000.0
 Denmark,Copenhagen,5484000,43094.0
 Dominica,Roseau,72813,754.0
-Dominican Republic,Santo Domingo,9823821,48730.0
+Dominican Rep.,Santo Domingo,9823821,48730.0
 Algeria,Algiers,34586184,2381740.0
 Ecuador,Quito,14790608,283560.0
 Estonia,Tallinn,1291170,45226.0
 Egypt,Cairo,80471869,1001450.0
-Western Sahara,Laâyoune / El Aaiún,273008,266000.0
+W. Sahara,Laâyoune / El Aaiún,273008,266000.0
 Eritrea,Asmara,5792984,121320.0
 Spain,Madrid,46505963,504782.0
 Ethiopia,Addis Ababa,88013491,1127127.0
 Finland,Helsinki,5244000,337030.0
 Fiji,Suva,875983,18270.0
-Falkland Islands,Stanley,2638,12173.0
+Falkland Is.,Stanley,2638,12173.0
 Micronesia,Palikir,107708,702.0
-Faroe Islands,Tórshavn,48228,1399.0
+Faroe Is.,Tórshavn,48228,1399.0
 France,Paris,64768389,547030.0
 Gabon,Libreville,1545255,267667.0
 United Kingdom,London,62348447,244820.0
@@ -84,7 +84,7 @@ Ghana,Accra,24339838,239460.0
 Gibraltar,Gibraltar,27884,6.5
 Greenland,Nuuk,56375,2166086.0
 Gambia,Bathurst,1593256,11300.0
-Guinea,Conakry,10324025,245857.0
+Eq. Guinea,Conakry,10324025,245857.0
 Guadeloupe,Basse-Terre,443000,1780.0
 Equatorial Guinea,Malabo,1014999,28051.0
 Greece,Athens,11000000,131940.0
@@ -144,7 +144,7 @@ Madagascar,Antananarivo,21281844,587040.0
 Marshall Islands,Majuro,65859,181.3
 Macedonia,Skopje,2062294,25333.0
 Mali,Bamako,13796354,1240000.0
-Myanmar [Burma],Naypyitaw,53414374,678500.0
+Myanmar,Naypyitaw,53414374,678500.0
 Mongolia,Ulan Bator,3086918,1565000.0
 Macao,Macao,449198,254.0
 Northern Mariana Islands,Saipan,53883,477.0
@@ -161,7 +161,7 @@ Mozambique,Maputo,22061451,801590.0
 Namibia,Windhoek,2128471,825418.0
 New Caledonia,Noumea,216494,19060.0
 Niger,Niamey,15878271,1267000.0
-Norfolk Island,Kingston,1828,34.6
+Norfolk Is.,Kingston,1828,34.6
 Nigeria,Abuja,154000000,923768.0
 Nicaragua,Managua,5995928,129494.0
 Netherlands,Amsterdam,16645000,41526.0
@@ -204,9 +204,9 @@ Slovakia,Bratislava,5455000,48845.0
 Sierra Leone,Freetown,5245695,71740.0
 San Marino,San Marino,31477,61.2
 Senegal,Dakar,12323252,196190.0
-Somalia,Mogadishu,10112453,637657.0
+Somaliland,Mogadishu,10112453,637657.0
 Suriname,Paramaribo,492829,163270.0
-South Sudan,Juba,8260490,644329.0
+S. Sudan,Juba,8260490,644329.0
 São Tomé and Príncipe,São Tomé,175808,1001.0
 El Salvador,San Salvador,6052064,21040.0
 Sint Maarten,Philipsburg,37429,21.0
@@ -231,7 +231,7 @@ Tanzania,Dodoma,41892895,945087.0
 Ukraine,Kiev,45415596,603700.0
 Uganda,Kampala,33398682,236040.0
 U.S. Minor Outlying Islands,None,0,0.0
-United States,Washington,310232863,9629091.0
+United States of America,Washington,310232863,9629091.0
 Uruguay,Montevideo,3477000,176220.0
 Uzbekistan,Tashkent,27865738,447400.0
 Vatican City,Vatican City,921,0.44
