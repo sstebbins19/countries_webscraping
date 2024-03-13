@@ -1,7 +1,7 @@
 # Websraping Countries
 This project aims to webscrape country information from this website; https://www.scrapethissite.com/pages/simple/. 
 
-## How to Use
+## How to Use Webscraper
 1. Download python on your system
 2. Install beautifulsoup4 and requests onto your system 
 3. Download the webscraping.py file
